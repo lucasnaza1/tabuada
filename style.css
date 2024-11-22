@@ -1,11 +1,11 @@
 header {
   font: normal 18pt Arial;
   text-align: center;
-  text-shadow: 5px 5px 10px red;
+  text-shadow: 5px 5px 10px #5386fc;
 }
 body {
   text-align: center;
-  background-color: darkred;
+  background-color: #a1bdff;
   font: normal 15pt Verdana;
   color: white;
 }
@@ -26,5 +26,5 @@ footer {
   color: white;
   text-align: center;
   font-style: italic;
-  text-shadow: 5px 5px 10px red;
+  text-shadow: 5px 5px 10px #5386fc;
 }

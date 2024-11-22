@@ -1,61 +1,61 @@
 function tabuadaMultiplicacao() {
-  let numb = document.getElementById("numb");
-  let tab = document.getElementById("settabmult");
-  tab.innerHTML = "";
+  let numb = document.getElementById("valor");
+  let coluna = document.getElementById("multiplicacao");
+  coluna.innerHTML = "";
   for (c = 1; c <= 10; c++) {
-    let n = Number(numb.value);
+    let n = Number(valor.value);
     let item = document.createElement("option");
     item.text = `${n} x ${c} = ${n * c}`;
-    item.value = `tab${c}`;
-    tab.appendChild(item);
+    item.value = `coluna${c}`;
+    coluna.appendChild(item);
   }
 }
 function tabuadaDivisao() {
-  let numb = document.getElementById("numb");
-  let tab1 = document.getElementById("settabdiv");
-  tab1.innerHTML = "";
+  let valor = document.getElementById("valor");
+  let coluna1 = document.getElementById("divisao");
+  coluna1.innerHTML = "";
   for (c = 1; c <= 10; c++) {
-    let n = Number(numb.value);
+    let n = Number(valor.value);
     let item = document.createElement("option");
     item.text = `${n} : ${c} = ${(n / c).toFixed(2)}`;
-    item.value = `tab1${c}`;
-    tab1.appendChild(item);
+    item.value = `coluna1${c}`;
+    coluna1.appendChild(item);
   }
 }
 function tabuadaAdicao() {
-  let numb = document.getElementById("numb");
-  let tab2 = document.getElementById("settabadi");
-  tab2.innerHTML = "";
+  let valor = document.getElementById("valor");
+  let coluna2 = document.getElementById("adicao");
+  coluna2.innerHTML = "";
   for (c = 1; c <= 10; c++) {
-    let n = Number(numb.value);
+    let n = Number(valor.value);
     let item = document.createElement("option");
     item.text = `${n} + ${c} = ${n + c}`;
-    item.value = `tab2${c}`;
-    tab2.appendChild(item);
+    item.value = `coluna2${c}`;
+    coluna2.appendChild(item);
   }
 }
 function tabuadaSubtracao() {
-  let numb = document.getElementById("numb");
-  let tab3 = document.getElementById("settabsub");
-  tab3.innerHTML = "";
+  let valor = document.getElementById("valor");
+  let coluna3 = document.getElementById("subtracao");
+  coluna3.innerHTML = "";
   for (c = 1; c <= 10; c++) {
-    let n = Number(numb.value);
+    let n = Number(valor.value);
     let item = document.createElement("option");
     item.text = `${n} - ${c} = ${n - c}`;
-    item.value = `tab3${c}`;
-    tab3.appendChild(item);
+    item.value = `coluna3${c}`;
+    coluna3.appendChild(item);
   }
 }
 function tabuadaPotenciacao() {
-  let numb = document.getElementById("numb");
-  let tab4 = document.getElementById("settabpot");
-  tab4.innerHTML = "";
+  let valor = document.getElementById("valor");
+  let coluna4 = document.getElementById("potenciacao");
+  coluna4.innerHTML = "";
   for (c = 1; c <= 10; c++) {
-    let n = Number(numb.value);
+    let n = Number(valor.value);
     let item = document.createElement("option");
     item.text = `${n} ^ ${c} = ${n ** c}`;
-    item.value = `tab4${c}`;
-    tab4.appendChild(item);
+    item.value = `coluna4${c}`;
+    coluna4.appendChild(item);
   }
-  numb.value = "";
+  valor.value = "";
 }
