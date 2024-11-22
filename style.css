@@ -1,20 +1,24 @@
 header {
-  font: normal 18pt Arial;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font: normal 18pt;
   text-align: center;
-  text-shadow: 5px 5px 10px #5386fc;
-}
-body {
-  text-align: center;
-  background-color: #a1bdff;
-  font: normal 15pt Verdana;
-  color: white;
-}
-header {
+  text-shadow: 5px 5px 10px #001f68;
   color: white;
   text-align: center;
   font-style: italic;
 }
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  background-color: #002373;
+  font: normal 15pt Arial;
+  color: white;
+}
 section {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   background-color: whitesmoke;
   border-radius: 10px;
   padding: 15px;
@@ -26,5 +30,5 @@ footer {
   color: white;
   text-align: center;
   font-style: italic;
-  text-shadow: 5px 5px 10px #5386fc;
+  text-shadow: 5px 5px 10px #001f68;
 }
