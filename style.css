@@ -1,0 +1,30 @@
+header {
+  font: normal 18pt Arial;
+  text-align: center;
+  text-shadow: 5px 5px 10px red;
+}
+body {
+  text-align: center;
+  background-color: darkred;
+  font: normal 15pt Verdana;
+  color: white;
+}
+header {
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
+section {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 15px;
+  width: 450px;
+  margin: auto;
+  color: black;
+}
+footer {
+  color: white;
+  text-align: center;
+  font-style: italic;
+  text-shadow: 5px 5px 10px red;
+}
