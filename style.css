@@ -9,12 +9,21 @@ header {
   font-style: italic;
 }
 body {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
   text-align: center;
   background-color: #002373;
   font: normal 15pt Arial;
   color: white;
+}
+#tabuada {
+  padding: 10%;
+  width: 80%;
+  height: 40%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  margin: auto;
+  gap: 1rem;
 }
 section {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
